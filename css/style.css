@@ -1,0 +1,63 @@
+body {
+      font-family: Bebas Neue Pro, Montserrat;
+      padding: 20px;
+      margin: 0;
+      background: #f0e3d3;
+    }
+    h1 {
+      text-align: center;
+      color: #A57865;
+      margin-bottom: 40px;
+    }
+    .menu-section {
+      margin-bottom: 20px;
+      border: 1px solid #A57865;
+      border-radius: 8px;
+    }
+    .menu-section h2 {
+      margin: 0;
+      padding: 12px 20px;
+      background-color: #A57865;
+      color: #f0e3d3;
+      cursor: pointer;
+      user-select: none;
+    }
+    .menu-items {
+      display: none;
+      padding: 15px;
+      background-color: #f0e3d3;
+    }
+    .menu-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      gap: 15px;
+    }
+    .menu-item img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .menu-info {
+      flex-grow: 1;
+    }
+    .menu-info span {
+      display: block;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .menu-price {
+      font-weight: bold;
+      color: #333;
+    }
+    @media (max-width: 600px) {
+      .menu-item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .menu-item img {
+        width: 100%;
+        height: auto;
+      }
+    }

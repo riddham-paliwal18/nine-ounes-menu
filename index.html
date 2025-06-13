@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nine Ounces OZ</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/script.js"></script>
+</head>
+<body>
+
+  <div style="display: flex; align-items: center; justify-content: center; gap: 15px; flex-wrap: wrap;">
+    <img src="/9ounces_menu/resources/1.png" alt="Nine Ounces OZ Logo" style="max-width: 60px; height: auto;" />
+    <h1 style="margin: 0;">Nine Ounces OZ</h1>
+  </div>
+
+  <!-- Starters -->
+  <div class="menu-section">
+    <h2 onclick="toggleSection(this)">Beverages</h2>
+    <div class="menu-items">
+      <!--Straters Chai  -->
+      <div class="menu-item">
+        <img src="https://m.media-amazon.com/images/I/71MqWRuVYdL.jpg" alt="Chai">
+        <div class="menu-info">
+          <span>Chai</span>
+          <span class="menu-price">₹35</span>
+        </div>
+      </div>
+      <!-- Starters Kulhad Chai -->
+      <div class="menu-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8nJe5IYy4cR4ThJotab9DtztmXmEjGjNI8w&s" alt="Kulhad Chai">
+        <div class="menu-info">
+          <span>Kulhad Chai</span>
+          <span class="menu-price">₹40</span>
+        </div>
+      </div>
+      <!--Starters Espresso-->
+      <div class="menu-item">
+        <img src="https://www.nestleprofessional.in/sites/default/files/2021-08/Espresso_0.jpg" alt="Espresso">
+        <div class="menu-info">
+          <span>Espresso</span>
+          <span class="menu-price">₹100</span>
+        </div>
+      </div>
+      <!--Starters Cold Coffee -->
+      <div class="menu-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREDsqgAbAe8PW6jDzstosUPkPu7x5OYofNeQ&s" alt="Cold Coffee">
+        <div class="menu-info">
+          <span>Cold Coffee</span>
+          <span class="menu-price">₹120</span>
+        </div>
+      </div>
+      <!--Starters Americano -->
+      <div class="menu-item">
+        <img src="https://berrynco.com/wp-content/uploads/2023/06/Americano-Coffee-thmbnail.jpg" alt="Americano">
+        <div class="menu-info">
+          <span>Americano</span>
+          <span class="menu-price">₹129</span>
+        </div>
+      </div>
+      <!--Starters Cappuccino -->
+      <div class="menu-item">
+        <img src="https://media.istockphoto.com/id/505168330/photo/cup-of-cafe-latte-with-coffee-beans-and-cinnamon-sticks.jpg?s=612x612&w=0&k=20&c=h7v8kAfWOpRapv6hrDwmmB54DqrGQWxlhP_mTeqTQPA=" alt="Cappuccino">
+        <div class="menu-info">
+          <span>Cappuccino</span>
+          <span class="menu-price">₹139</span>
+        </div>
+      </div>
+      <!--Starters Caffè latte -->
+      <div class="menu-item">
+        <img src="https://coffee-dictionary.com/wp-content/uploads/cafe-latte.jpg" alt="Caffè latte">
+        <div class="menu-info">
+          <span>Caffè latte</span>
+          <span class="menu-price">₹149</span>
+        </div>
+      </div>
+      <!--Starters Caffe mocha -->
+      <div class="menu-item">
+        <img src="https://www.ghirne.com/wp-content/uploads/2024/11/CafeMocha-hero.61028a28.jpg" alt="Caffè Mocha">
+        <div class="menu-info">
+          <span>Caffè Mocha</span>
+          <span class="menu-price">₹159</span>
+        </div>
+      </div>
+      <!--Starters Affogato -->
+      <div class="menu-item">
+        <img src="https://www.thespruceeats.com/thmb/5PcCBEaUd1U1eFxfcKKPLVnZzfA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/affogato-4776668-hero-08-40d7a68d12ba46f48eaea3c43aba715c.jpg" alt="Affogato">
+        <div class="menu-info">
+          <span>Affogato</span>
+          <span class="menu-price">₹159</span>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Shakes -->
+  <div class="menu-section">
+    <h2 onclick="toggleSection(this)">Shakes</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO5evrM68KxkQ9D6QVlwuyRZLjaxPL_o25bQ&s" alt="Frappe">
+        <div class="menu-info">
+          <span>Frappe</span>
+          <span class="menu-price">₹149</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hvY29sYXRlJTIwbWlsa3NoYWtlfGVufDB8fDB8fHww" alt="Chocolate Shake">
+        <div class="menu-info">
+          <span>Chocolate Shake</span>
+          <span class="menu-price">₹179</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTWDOAdCVDCwjKAm0Pa3PPQrIV4huHKLl2vg&s" alt="Oreo Shake">
+        <div class="menu-info">
+          <span>Oreo Shake</span>
+          <span class="menu-price">₹179</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://www.ghirne.com/wp-content/uploads/2024/11/kitkat_milkshake_01.jpg" alt="Kitkat Shake">
+        <div class="menu-info">
+          <span>Kitkat Shake</span>
+          <span class="menu-price">₹179</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLTag5u7CQYSMV2IlZmzjiPVCM2p6CBmOoaw&s" alt="Nutella Shake">
+        <div class="menu-info">
+          <span>Nutella Shake</span>
+          <span class="menu-price">₹210</span>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Mocktails -->
+  <div class="menu-section">
+    <h2 onclick="toggleSection(this)">Mocktails</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRthvAmr8ruqBuMlqwoeoYCwPpEXyyEyAvJnA&s" alt="Classic Shikanji">
+        <div class="menu-info">
+          <span>Classic Shikanji</span>
+          <span class="menu-price">₹59</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://brainfoodstudio.com/wp-content/uploads/2015/08/sweety-salty-fresh-lime-soda-4.jpg" alt="Fresh Line Soda">
+        <div class="menu-info">
+          <span>Fresh Line Soda</span>
+          <span class="menu-price">₹110</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://media.istockphoto.com/id/1203957765/photo/mojito-cocktail-stands-on-table-amid-bar.jpg?s=612x612&w=0&k=20&c=qQPfE9eZPc75VfEqucDVp7M2Mm5f9-ZU7JrVWvS8TC0=" alt="Virgin Mojito">
+        <div class="menu-info">
+          <span>Virgin Mojito</span>
+          <span class="menu-price">₹149</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://www.shutterstock.com/image-photo/blue-lagoon-cocktail-curacao-syrup-600nw-1910409565.jpg" alt="Blue Curacao">
+        <div class="menu-info">
+          <span>Blue Curacao</span>
+          <span class="menu-price">₹179</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://www.shutterstock.com/image-photo/guava-juice-smoothies-smooth-ice-260nw-2506690621.jpg" alt="Spicy Tropical Guava">
+        <div class="menu-info">
+          <span>Spicy Tropical Guava</span>
+          <span class="menu-price">₹179</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6nMMZC35ZAPunPPHsNU-eSR9xn7kSLnyylA&s" alt="Kala Khatta">
+        <div class="menu-info">
+          <span>Kala Khatta</span>
+          <span class="menu-price">₹179</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://monin.in/cdn/shop/files/GreenApplecooler_1.png?v=1684575403" alt="Green Apple">
+        <div class="menu-info">
+          <span>Green Apple</span>
+          <span class="menu-price">₹179</span>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Burgers-->
+  <div class="menu-section">
+    <h2 onclick="toggleSection(this)">Burgers</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="https://media.istockphoto.com/id/1309352410/photo/cheeseburger-with-tomato-and-lettuce-on-wooden-board.jpg?s=612x612&w=0&k=20&c=lfsA0dHDMQdam2M1yvva0_RXfjAyp4gyLtx4YUJmXgg=" alt="Veg. Burger">
+        <div class="menu-info">
+          <span>Veg. Burger</span>
+          <span class="menu-price">₹129</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTun8RtUzFNaOCtOAMjE-k41XIfr5zN38PuxA&s" alt="Cheese Burger">
+        <div class="menu-info">
+          <span>Cheese Burger</span>
+          <span class="menu-price">₹159</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Maggi-->
+  <div class="menu-section">
+    <h2 onclick="toggleSection(this)">Maggi</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=Paneer" alt="Lazy Day Maggi">
+        <div class="menu-info">
+          <span>Lazy Day Maggi</span>
+          <span class="menu-price">₹129</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=Biryani" alt="Spicy Garlic Maggi">
+        <div class="menu-info">
+          <span>Spicy Garlic Maggi</span>
+          <span class="menu-price">₹159</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=Paneer" alt="Indian Masala Maggi">
+        <div class="menu-info">
+          <span>Indian Masala Maggi</span>
+          <span class="menu-price">₹169</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=Biryani" alt="Fiery Garlic Maggi">
+        <div class="menu-info">
+          <span>Fiery Garlic Maggi</span>
+          <span class="menu-price">₹179</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=Paneer" alt="Maggie 'n' Cheese">
+        <div class="menu-info">
+          <span>Maggie 'n' Cheese</span>
+          <span class="menu-price">₹199</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Italian Special -->
+  <div class="menu-section">
+    <h2 onclick="toggleSection(this)">Italian Specials</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=Paneer" alt="Cheese Garlic Bread">
+        <div class="menu-info">
+          <span>Cheese Garlic Bread</span>
+          <span class="menu-price">₹179</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=Biryani" alt="Classic Margherita Pizza">
+        <div class="menu-info">
+          <span>Classic Margherita Pizza</span>
+          <span class="menu-price">₹249</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=Biryani" alt="Arrabbiata Pasta">
+        <div class="menu-info">
+          <span>Arrabbiata Pasta</span>
+          <span class="menu-price">₹249</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=Biryani" alt="Alfredo Pasta">
+        <div class="menu-info">
+          <span>Alfredo Pasta</span>
+          <span class="menu-price">₹259</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=Biryani" alt="Green Supreme Pizza">
+        <div class="menu-info">
+          <span>Green Supreme Pizza</span>
+          <span class="menu-price">₹280</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- APPETIZERS -->
+  <div class="menu-section">
+    <h2 onclick="toggleSection(this)">Appetizers</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="https://www.chatpataaffair.com/wp-content/uploads/2023/05/salted-fries.jpg2_.jpg" alt="Simply Salted Fries">
+        <div class="menu-info">
+          <span>Simply Salted Fries</span>
+          <span class="menu-price">₹139</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://www.chatpataaffair.com/wp-content/uploads/2023/05/peri-peri-fries.jpg2_.jpg" alt="Spicy Peri Peri Fries">
+        <div class="menu-info">
+          <span>Spicy Peri Peri Fries</span>
+          <span class="menu-price">₹164</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://cdn.apartmenttherapy.info/image/upload/v1699466534/k/Photo/Recipes/2023-11-cajun-fries/32989-Cajun-fries.jpg" alt="Cajun Masala Fries">
+        <div class="menu-info">
+          <span>Cajun Masala Fries</span>
+          <span class="menu-price">₹179</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE9-bpEaU96DWBgD_ptCua7q6_XWItabcKcw&s" alt="Loaded Nachos">
+        <div class="menu-info">
+          <span>Loaded Nachos</span>
+          <span class="menu-price">₹200</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sandwhich -->
+  <div class="menu-section">
+    <h2 onclick="toggleSection(this)">Sandwhich</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=Paneer" alt="Fiery Cheese Toast">
+        <div class="menu-info">
+          <span>Fiery Cheese Toast</span>
+          <span class="menu-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=Biryani" alt="Aloo Chilli Sandwhich">
+        <div class="menu-info">
+          <span>Aloo Chilli Sandwhich</span>
+          <span class="menu-price">₹164</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=Paneer" alt="Veg. Cheese Sandwhich">
+        <div class="menu-info">
+          <span>Veg. Cheese Sandwhich</span>
+          <span class="menu-price">₹169</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=Biryani" alt="Corn Cheese Sandwhich">
+        <div class="menu-info">
+          <span>Corn Cheese Sandwhich</span>
+          <span class="menu-price">₹175</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chinese Specials -->
+  <div class="menu-section">
+    <h2 onclick="toggleSection(this)">Chinese Specials</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=Gulab" alt="Seoul Spicy Noodles">
+        <div class="menu-info">
+          <span>Seoul Spicy Noodles</span>
+          <span class="menu-price">₹179</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=IceCream" alt="Manchurian mania">
+        <div class="menu-info">
+          <span>Manchurian mania</span>
+          <span class="menu-price">₹179</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=Gulab" alt="Spicy Wok Noodles">
+        <div class="menu-info">
+          <span>Spicy Wok Noodles</span>
+          <span class="menu-price">₹189</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=IceCream" alt="Spicy Paneer Chilli">
+        <div class="menu-info">
+          <span>Spicy Paneer Chilli</span>
+          <span class="menu-price">₹210</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=Gulab" alt="Honey Chilli Potato">
+        <div class="menu-info">
+          <span>Honey Chilli Potato</span>
+          <span class="menu-price">₹215</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=IceCream" alt="Spicy Chilli Potato">
+        <div class="menu-info">
+          <span>Spicy Chilli Potato</span>
+          <span class="menu-price">₹220</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Specials -->
+  <div class="menu-section">
+    <h2 onclick="toggleSection(this)">Specials</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=Chai" alt="9 ounces tea">
+        <div class="menu-info">
+          <span>9 Ounces Tea</span>
+          <span class="menu-price">₹65</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=Lemon" alt="9 Ounces Coffee">
+        <div class="menu-info">
+          <span>9 Ounces Coffee</span>
+          <span class="menu-price">₹75</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=Chai" alt="Chole Bhature">
+        <div class="menu-info">
+          <span>Chole Bhature</span>
+          <span class="menu-price">₹189</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/60x60?text=Lemon" alt="Spicy Paneer Wrap">
+        <div class="menu-info">
+          <span>Spicy Paneer Wrap</span>
+          <span class="menu-price">₹259</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
